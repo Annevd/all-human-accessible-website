@@ -440,8 +440,129 @@ h2 {
     background: white;
     border-radius: 1rem;
     color: /*var(--text-color)*/ black;
+    box-shadow: 3px 3px 2px rgb(187, 187, 187);
     transition: 0.2s ease-in-out;
 }
+
+/* Popup */
+
+body:has(.overlay:target) main {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.overlay {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.2);
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+}
+
+.popup {
+  position: relative;
+  margin: 6em auto;
+  padding: 2em;
+  background: #fff;
+  border-radius: 1rem;
+  width: 90%;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: all 200ms;
+}
+
+/* Popup infoknop */
+
+.book-recs {
+    display: flex;
+    overflow: scroll;
+}
+
+.book-small {
+    display: flex;
+    flex-direction: column;
+}
+
+.book-small h3 {
+    padding-left: 1rem;
+}
+
+.book-small img {
+    width: 150px;
+}
+
+/* Recommendations */
+
+.recommendations {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 280px);
+    gap: 1rem;
+}
+
+.rec-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.rec-title h2 {
+    font-size: 1.875rem;
+    margin-bottom: 1rem;
+}
+
+.activity {
+    position: relative;
+    display: grid;
+    justify-items: center;
+}
+
+.activity img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .5rem;
+    padding-right: 0.25rem; 
+}
+
+.activity h3 {
+    position: absolute;
+    bottom: 0.25rem;
+    width: 100%;
+}
+
+.activity h3 a {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    background: white;
+    color: /*var(--primary-color-light)*/black;
+    border-radius: 1rem;
+    max-width: 80%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transition: 0.2s ease-in-out;
+    transition: 0.5s;
+}
+
+/* Hovers & Focus */
 
 .book a,
 .activity a:link,
@@ -450,10 +571,64 @@ h2 {
   text-decoration: none;
 }
 
-/* Recommendations */
+.activity h3 a:hover,
+.activity h3 a:focus,
+.book a:hover,
+.book a:focus {
+  background: var(--primary-color);
+  color: white;
+}
 
-.activity img {
-    width: 90%;
+.buttons button:hover,
+.buttons button:focus {
+  background: white;
+  color: var(--text-color);
+}
+
+.activity h3 a:active,
+.book a:active {
+  background: green;
+  transition: 0s;
+}
+
+/* Dark mode */
+
+body.dark .home .book a,
+body.dark .home .activity h3 a,
+body.dark .home .book img {
+  color: var(--primary-color);
+  box-shadow: none;
+}
+
+body.dark .home .buttons button {
+  background: #ff0000;
+}
+
+body.dark .home .buttons button:hover,
+body.dark .home .buttons button:focus,
+body.dark .home .popup {
+  background: white;
+  color: var(--primary-color);
+}
+
+body.dark .home .close {
+    color: #ff0000;
+}
+
+body.dark .home .activity h3 a:hover,
+body.dark .home .activity h3 a:focus,
+body.dark .home .book a:hover,
+body.dark .home .book a:focus {
+  background: #ff0000;
+  color: white;
+}
+
+/* Media queries */
+
+@media (min-width: 39rem){
+    .book-recs {
+        flex-wrap: wrap;
+    }
 }
 
 @media (min-width: 47rem) {
@@ -473,6 +648,10 @@ h2 {
         text-align: start;
     }
 
+    .popup {
+        width: 60%;
+    }
+
     .book {
         display: flex;
         flex-flow: column;
@@ -488,5 +667,23 @@ h2 {
         padding-left: 1rem;
         margin-bottom: 2rem;
         gap: 1rem;
+    }
+
+    .recommendations {
+        justify-content: start;
+    }
+
+    .rec-title {
+        display: flex;
+        align-items: center;
+        text-align: start;
+    }
+
+    .rec-title img {
+        margin-left: 4rem;
+    }
+
+    .activity {
+        margin: 1rem;
     }
 }
