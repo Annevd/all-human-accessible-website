@@ -188,7 +188,7 @@ header .image-text .profession{
     transform: translateY(-50%) rotate(180deg);
     height: 25px;
     width: 25px;
-    background-color: var(--primary-color);
+    background-color: #EB0000;
     color: var(--sidebar-color);
     border-radius: 50%;
     display: flex;
@@ -405,7 +405,7 @@ button {
     padding: 0.5rem 0.75rem;
     border: none;
     border-radius: 1rem;
-    background: var(--primary-color);
+    background: #EB0000;
     font-family: AvenirMedium;
     font-size: 1rem;
     color: white;
@@ -435,7 +435,7 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
-.book a {
+.book a:nth-child(4) { /* selecteert het 4de child van het article*/
     padding: 0.5rem 2rem;
     background: white;
     border-radius: 1rem;
@@ -483,7 +483,7 @@ body:has(.overlay:target) main {
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  color: var(--primary-color);
+  color: #EB0000;
   transition: all 200ms;
 }
 
@@ -492,11 +492,14 @@ body:has(.overlay:target) main {
 .book-recs {
     display: flex;
     overflow: scroll;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
 }
 
 .book-small {
     display: flex;
     flex-direction: column;
+    scroll-snap-align: center;
 }
 
 .book-small h3 {
@@ -564,18 +567,18 @@ body:has(.overlay:target) main {
 
 /* Hovers & Focus */
 
-.book a,
+.book a:nth-child(4),
 .activity a:link,
-.book a,
+.book a:nth-child(4),
 .activity a:visited {
   text-decoration: none;
 }
 
 .activity h3 a:hover,
 .activity h3 a:focus,
-.book a:hover,
-.book a:focus {
-  background: var(--primary-color);
+.book a:nth-child(4):hover,
+.book a:nth-child(4):focus {
+  background: #EB0000;
   color: white;
 }
 
@@ -586,7 +589,7 @@ body:has(.overlay:target) main {
 }
 
 .activity h3 a:active,
-.book a:active {
+.book a:nth-child(4):active {
   background: green;
   transition: 0s;
 }
@@ -601,7 +604,7 @@ body.dark .home .book img {
 }
 
 body.dark .home .buttons button {
-  background: #ff0000;
+  background: #EB0000;
 }
 
 body.dark .home .buttons button:hover,
@@ -612,14 +615,14 @@ body.dark .home .popup {
 }
 
 body.dark .home .close {
-    color: #ff0000;
+    color: #EB0000;
 }
 
 body.dark .home .activity h3 a:hover,
 body.dark .home .activity h3 a:focus,
 body.dark .home .book a:hover,
 body.dark .home .book a:focus {
-  background: #ff0000;
+  background: #EB0000;
   color: white;
 }
 
@@ -628,6 +631,7 @@ body.dark .home .book a:focus {
 @media (min-width: 39rem){
     .book-recs {
         flex-wrap: wrap;
+        overflow: hidden;
     }
 }
 
@@ -649,7 +653,7 @@ body.dark .home .book a:focus {
     }
 
     .popup {
-        width: 60%;
+        width: 50%;
     }
 
     .book {
@@ -680,7 +684,7 @@ body.dark .home .book a:focus {
     }
 
     .rec-title img {
-        margin-left: 4rem;
+        margin: 0 4rem 0 4rem;
     }
 
     .activity {
