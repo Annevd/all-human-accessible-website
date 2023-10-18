@@ -336,12 +336,13 @@ body.dark .switch::before{
     width: calc(100% - 250px);
     background-color: var(--body-color);
     transition: var(--tran-05);
+    padding-left: 1rem;
 }
 .home .text{
     font-size: 30px;
     font-weight: 500;
     color: var(--text-color);
-    padding: 12px 60px;
+    padding: 12px 0 12px 12px/*60px*/;
 }
 
 .sidebar.close ~ .home{
@@ -351,4 +352,141 @@ body.dark .switch::before{
 }
 body.dark .home .text{
     color: var(--text-color);
+}
+
+/* Eigen werk */
+
+main {
+    /* color: var(--text-color); */
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    font-size: 1.875rem;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+/* Zoekbalk */
+
+form {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+form i {
+    border-radius: 1rem;
+    /* color: var(--text-color); */
+    font-size: 1.2rem;
+}
+
+input {
+    padding: 0.5rem 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    font-family: AvenirMedium;
+    /* color: var(--text-color); */
+    font-size: 1rem;
+    outline: 0;
+}
+
+
+/* Filters */
+
+.buttons {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+button {
+    margin: 0 0.5rem 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    border-radius: 1rem;
+    background: var(--primary-color);
+    font-family: AvenirMedium;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+/* Boekenlijst */
+
+.book {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.book img {
+    box-shadow: 5px 5px 5px rgb(204, 204, 204);
+    width: 180px;
+    height: 285px;
+}
+
+h2 {
+    margin-top: 1rem;
+}
+
+.book p {
+    margin-bottom: 1.5rem;
+}
+
+.book a {
+    padding: 0.5rem 2rem;
+    background: white;
+    border-radius: 1rem;
+    color: /*var(--text-color)*/ black;
+    transition: 0.2s ease-in-out;
+}
+
+.book a,
+.activity a:link,
+.book a,
+.activity a:visited {
+  text-decoration: none;
+}
+
+/* Recommendations */
+
+.activity img {
+    width: 90%;
+}
+
+@media (min-width: 47rem) {
+    .home {
+        padding-left: 2rem;
+    }
+
+    h1 {
+        text-align: start;
+    }
+
+    form {
+        text-align: start;
+    }
+
+    .buttons {
+        text-align: start;
+    }
+
+    .book {
+        display: flex;
+        flex-flow: column;
+        align-items: start;
+        justify-content: space-between;
+        text-align: start;
+        margin: 0 3rem 2rem 0;
+    }
+
+    .book-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        padding-left: 1rem;
+        margin-bottom: 2rem;
+        gap: 1rem;
+    }
 }
