@@ -14,32 +14,23 @@
     src: url(../fonts/Avenir\ -black.ttf);
 }
 
-/* Custom properties */
-/* :root {
-    --red:#FF0000;
-    --dark-color:#ce0000;
-    --black:#000000;
-    --gray:#666;
-    /* --border: .1rem solid rgba(0,0,0,.1);
-    --border-hover: .1rem solid var(--black);
-    --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1); 
-} */
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Poppins', sans-serif; */
 }
+
+
+/* Custom properties */
 
 :root{
     /* ===== Colors ===== */
     --body-color: #E4E9F7;
     --sidebar-color: #FFF;
-    --primary-color: #FF0000;
+    --primary-color: /*#FF0000*/ #EB0000;
     --primary-color-light: #F6F5FF;
     --toggle-color: #DDD;
-    --text-color: #707070;
+    --text-color: /*#707070*/ #3a3b3c;
 
     /* ====== Transition ====== */
     --tran-03: all 0.2s ease;
@@ -357,7 +348,7 @@ body.dark .home .text{
 /* Eigen werk */
 
 main {
-    /* color: var(--text-color); */
+    color: var(--text-color);
     display: flex;
     flex-direction: column;
 }
@@ -378,7 +369,7 @@ form {
 
 form i {
     border-radius: 1rem;
-    /* color: var(--text-color); */
+    color: var(--text-color);
     font-size: 1.2rem;
 }
 
@@ -387,7 +378,7 @@ input {
     border-radius: 1rem;
     border: none;
     font-family: AvenirMedium;
-    /* color: var(--text-color); */
+    color: var(--text-color); 
     font-size: 1rem;
     outline: 0;
 }
@@ -405,7 +396,7 @@ button {
     padding: 0.5rem 0.75rem;
     border: none;
     border-radius: 1rem;
-    background: #EB0000;
+    background: var(--primary-color);
     font-family: AvenirMedium;
     font-size: 1rem;
     color: white;
@@ -425,6 +416,7 @@ button {
     box-shadow: 5px 5px 5px rgb(204, 204, 204);
     width: 180px;
     height: 285px;
+    transition: 0.2s ease-in-out;   
 }
 
 h2 {
@@ -433,13 +425,14 @@ h2 {
 
 .book p {
     margin-bottom: 1.5rem;
+    color: var(--text-color);
 }
 
 .book a:nth-child(4) { /* selecteert het 4de child van het article*/
     padding: 0.5rem 2rem;
     background: white;
     border-radius: 1rem;
-    color: /*var(--text-color)*/ black;
+    color: var(--text-color);
     box-shadow: 3px 3px 2px rgb(187, 187, 187);
     transition: 0.2s ease-in-out;
 }
@@ -483,7 +476,7 @@ body:has(.overlay:target) main {
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  color: #EB0000;
+  color: var(--primary-color);
   transition: all 200ms;
 }
 
@@ -500,6 +493,7 @@ body:has(.overlay:target) main {
     display: flex;
     flex-direction: column;
     scroll-snap-align: center;
+    padding-right: 0.5rem;
 }
 
 .book-small h3 {
@@ -555,23 +549,36 @@ body:has(.overlay:target) main {
     display: inline-block;
     padding: 0.4rem 1rem;
     background: white;
-    color: /*var(--primary-color-light)*/black;
+    color: var(--text-color);
     border-radius: 1rem;
     max-width: 80%;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     transition: 0.2s ease-in-out;
-    transition: 0.5s;
 }
 
-/* Hovers & Focus */
+/* Hovers, Focus & Links*/
 
-.book a:nth-child(4),
+.book a,
 .activity a:link,
-.book a:nth-child(4),
+.book a,
 .activity a:visited {
   text-decoration: none;
+}
+
+.buttons button:hover,
+.buttons button:focus {
+  background: white;
+  color: var(--text-color);
+}
+
+.book img:hover {
+    translate: 0 -0.5rem;
+}
+
+.book a p:hover {
+    text-decoration: underline;
 }
 
 .activity h3 a:hover,
@@ -580,12 +587,6 @@ body:has(.overlay:target) main {
 .book a:nth-child(4):focus {
   background: #EB0000;
   color: white;
-}
-
-.buttons button:hover,
-.buttons button:focus {
-  background: white;
-  color: var(--text-color);
 }
 
 .activity h3 a:active,
