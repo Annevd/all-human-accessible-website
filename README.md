@@ -34,8 +34,9 @@ Voor deze website heb ik HTML en CSS gebruikt. De HTML is gestructureerd in arti
 ## Bronnen
 
 * [The A11Yproject](https://www.a11yproject.com/)
-* Chrome Lighthouse test
 * [w3 WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)
+* [How to do an accessibilty review](https://web.dev/articles/how-to-review)
+* Chrome Lighthouse test
 
 ## Licentie
 
