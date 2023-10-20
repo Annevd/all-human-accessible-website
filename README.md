@@ -22,13 +22,37 @@ Ook kan je op de boekcover klikken om doorgeleid te worden naar de oba pagina wa
 
 <!-- Voeg een mooie poster visual toe 📸 -->
 
+### Groot scherm lightmode
+
+![Schermafbeelding 2023-10-20 104543](https://github.com/Annevd/all-human-accessible-website/assets/144004647/7ca91da8-daed-45e9-aef6-98b66eb60c05)
+
+### Groot scherm darkmode
+
+![Schermafbeelding 2023-10-20 104640](https://github.com/Annevd/all-human-accessible-website/assets/144004647/71b62347-b68f-4705-a53b-a4b6fe951d40)
+
+### Groot scherm popup
+
+![Schermafbeelding 2023-10-20 104731](https://github.com/Annevd/all-human-accessible-website/assets/144004647/65c1ff84-7bbe-4781-80f0-201f5ecab81e)
+
+### Klein scherm lightmode
+
+![Schermafbeelding 2023-10-20 104846](https://github.com/Annevd/all-human-accessible-website/assets/144004647/a98c254c-e695-4268-b5e8-1abf068ed751)
+
+### Klein scherm darkmode
+
+![Schermafbeelding 2023-10-20 104949](https://github.com/Annevd/all-human-accessible-website/assets/144004647/25a0141a-91e4-4850-a980-b443297991ee)
+
+### Klein scherm popup
+
+![Schermafbeelding 2023-10-20 105046](https://github.com/Annevd/all-human-accessible-website/assets/144004647/79a50ddc-2cb0-410a-9dbf-7fa64a64a6e8)
+
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
-Voor deze website heb ik HTML en CSS gebruikt. De HTML is gestructureerd in articles, divs en een section. De belangrijkste dingen met css zijn de grids op de boekenlijst en op de aanbevolen activiteiten. Daarnaast gebruik ik flex om de boeken, titels, auteur en de info knop onder elkaar te zetten. Bekijk mijn wiki voor nog meer uitleg over de code!
+Voor deze website heb ik HTML en CSS gebruikt. De HTML is gestructureerd in articles, divs en een section. De belangrijkste dingen met css zijn de grids op de boekenlijst en op de aanbevolen activiteiten. Daarnaast gebruik ik flex om de boeken, titels, auteur en de info knop onder elkaar te zetten. Bekijk mijn [wiki](https://github.com/Annevd/all-human-accessible-website/wiki) voor nog meer uitleg over de code!
 
 
 ## Bronnen
