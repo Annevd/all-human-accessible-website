@@ -49,6 +49,8 @@ Ook kan je op de boekcover klikken om doorgeleid te worden naar de oba pagina wa
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
+[Mijn website](https://annevd.github.io/all-human-accessible-website/)
+
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
