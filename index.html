@@ -17,7 +17,8 @@
     <title>Mijn OBA</title> 
 </head>
 <body>
-    <nav class="sidebar close">
+
+    <!-- <nav class="sidebar close">
         <header>
             <div class="image-text">
                 <p class="image">
@@ -129,11 +130,57 @@
             </div>
         </div>
 
-    </nav>
+    </nav> -->
 
     <!-- Einde Ambers format -->
 
     <!-- Eigen werk -->
+    <header>
+        <nav>
+            <div class="dropdown">
+                <button onclick="myFunction()" class='dropbtn bx bx-menu' role="navigation"></button>
+                <div id="myDropdown" class="dropdown-content">
+
+                    <form class="search">
+                        <i class='bx bx-search icon'></i>
+                        <input type="text" placeholder="Zoek...">
+                    </form>
+
+                    <a href="#"><i class='bx bx-home'></i>Welkom</a>
+                    <a href="#"><i class='bx bx-list-ul'></i>Leeslijst</a>
+                    <a href="#"><i class='bx bx-bar-chart-alt-2'></i>Uitleningen en verlengen</a>
+                    <a href="#"><i class='bx bx-bell'></i>Uitleengeschiedenis</a>
+                    <a href="#"><i class='bx bx-pie-chart-alt'></i>Betaalgeschiedenis</a>
+                    <a href="#"><i class='bx bx-heart'></i>Reserveringen</a>
+                    <a href="#"><i class='bx bx-wallet'></i>Desposito's</a>
+                    <a href="#"><i class='bx bx-wallet'></i>Tellerstand abonnementen</a>
+
+                    <div class="bottom-content">
+                        <a href="#"><i class='bx bx-log-out'></i>Uitloggen</a>
+                        <div class="mode">
+                            <div class="sun-moon">
+                                <i class='bx bx-moon icon moon'></i>
+                                <i class='bx bx-sun icon sun'></i>
+                            </div>
+                            <p class="mode-text text">Dark mode</p>
+        
+                            <div class="toggle-switch">
+                                <p class="switch"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="person">
+                <div class="img-text">
+                    <p>Anne van Dijk</p>
+                    <p> 5 jaar lid</p>
+                </div>
+                <img src="./images/foto-anne.jpg" alt="">
+            </div>
+        </nav>
+    </header>
 
     <main class="home">
 
@@ -143,24 +190,24 @@
 
         <div id="popup1-info" class="overlay">
             <div class="popup">
-                <h2>Informatie</h2>
+                <h1>Informatie</h1>
                 <p>Uitgeleend op 1 oktober juni 2023</p>
                 <p>Ingelevered op 10 oktober 2023</p>
                 <h2>Meer van dit soort boeken</h2>
 
                 <ul class="book-recs">
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt="uitleenpagina boek"></a>
+                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
                         <h3>Titel</h3>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt="uitleenpagina boek"></a>
+                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
                         <h3>Titel</h3>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt="uitleenpagina boek"></a>
+                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
                         <h3>Titel</h3>
                     </li>
                 </ul>
@@ -170,24 +217,24 @@
 
         <div id="popup2-info" class="overlay">
             <div class="popup">
-                <h2>Informatie</h2>
+                <h1>Informatie</h1>
                 <p>Uitgeleend op  28 september 2023</p>
                 <p>Ingelevered op 3 oktober 2023</p>
                 <h2>Meer van dit soort boeken</h2>
                 
                 <ul class="book-recs">
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt="uitleenpagina boek"></a>
+                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
                         <h3>Titel</h3>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt="uitleenpagina boek"></a>
+                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
                         <h3>Titel</h3>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt="uitleenpagina boek"></a>
+                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
                         <h3>Titel</h3>
                     </li>
                 </ul>
@@ -197,24 +244,24 @@
 
         <div id="popup3-info" class="overlay">
             <div class="popup">
-                <h2>Informatie</h2>
+                <h1>Informatie</h1>
                 <p>Uitgeleend op 12 augustus 2023</p>
                 <p>Ingelevered op 20 augustus 2023</p>
                 <h2>Meer van dit soort boeken</h2>
 
                 <ul class="book-recs">
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt="uitleenpagina boek"></a>
+                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
                         <h3>Titel</h3>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt="uitleenpagina boek"></a>
+                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
                         <h3>Titel</h3>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt="uitleenpagina boek"></a>
+                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
                         <h3>Titel</h3>
                     </li>
                 </ul>
@@ -224,24 +271,24 @@
 
         <div id="popup4-info" class="overlay">
             <div class="popup">
-                <h2>Informatie</h2>
+                <h1>Informatie</h1>
                 <p>Uitgeleend op 8 juli 2023</p>
                 <p>Ingelevered op 20 juli 2023</p>
                 <h2>Meer van dit soort boeken</h2>
 
                 <ul class="book-recs">
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt="uitleenpagina boek"></a>
+                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
                         <h3>Titel</h3>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt="uitleenpagina boek"></a>
+                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
                         <h3>Titel</h3>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt="uitleenpagina boek"></a>
+                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
                         <h3>Titel</h3>
                     </li>
                 </ul>
@@ -251,24 +298,24 @@
 
         <div id="popup5-info" class="overlay">
             <div class="popup">
-                <h2>Informatie</h2>
+                <h1>Informatie</h1>
                 <p>Uitgeleend op 23 maart 2023</p>
                 <p>Ingelevered op 29 maart 2023</p>
                 <h2>Meer van dit soort boeken</h2>
 
                 <ul class="book-recs">
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt="uitleenpagina boek"></a>
+                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
                         <h3>Titel</h3>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt="uitleenpagina boek"></a>
+                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
                         <h3>Titel</h3>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt="uitleenpagina boek"></a>
+                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
                         <h3>Titel</h3>
                     </li>
                 </ul>
@@ -278,24 +325,24 @@
 
         <div id="popup6-info" class="overlay">
             <div class="popup">
-                <h2>Informatie</h2>
+                <h1>Informatie</h1>
                 <p>Uitgeleend op 1 januari 2023</p>
                 <p>Ingelevered op 5 februari 2023</p>
                 <h2>Meer van dit soort boeken</h2>
 
                 <ul class="book-recs">
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt="uitleenpagina boek"></a>
+                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
                         <h3>Titel</h3>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt="uitleenpagina boek"></a>
+                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
                         <h3>Titel</h3>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt="uitleenpagina boek"></a>
+                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
                         <h3>Titel</h3>
                     </li>
                 </ul>
@@ -307,22 +354,22 @@
 
         <div id="popup1-auteur" class="overlay">
             <div class="popup">
-                <h2>Meer van deze auteur</h2>
+                <h1>Meer van deze auteur</h1>
                 
                 <ul class="book-recs">
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt="uitleenpagina boek"></a>
-                        <h3>Titel</h3>
+                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
+                        <h2>Titel</h2>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt="uitleenpagina boek"></a>
-                        <h3>Titel</h3>
+                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
+                        <h2>Titel</h2>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt="uitleenpagina boek"></a>
-                        <h3>Titel</h3>
+                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
+                        <h2>Titel</h2>
                     </li>
                 </ul>
                 <a class="close" href="#">&times;</a>
@@ -331,22 +378,22 @@
 
         <div id="popup2-auteur" class="overlay">
             <div class="popup">
-                <h2>Meer van deze auteur</h2>
+                <h1>Meer van deze auteur</h1>
                 
                 <ul class="book-recs">
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt="uitleenpagina boek"></a>
-                        <h3>Titel</h3>
+                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
+                        <h2>Titel</h2>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt="uitleenpagina boek"></a>
-                        <h3>Titel</h3>
+                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
+                        <h2>Titel</h2>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt="uitleenpagina boek"></a>
-                        <h3>Titel</h3>
+                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
+                        <h2>Titel</h2>
                     </li>
                 </ul>
                 <a class="close" href="#">&times;</a>
@@ -355,22 +402,22 @@
 
         <div id="popup3-auteur" class="overlay">
             <div class="popup">
-                <h2>Meer van deze auteur</h2>
+                <h1>Meer van deze auteur</h1>
                 
                 <ul class="book-recs">
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt="uitleenpagina boek"></a>
-                        <h3>Titel</h3>
+                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
+                        <h2>Titel</h2>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt="uitleenpagina boek"></a>
-                        <h3>Titel</h3>
+                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
+                        <h2>Titel</h2>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt="uitleenpagina boek"></a>
-                        <h3>Titel</h3>
+                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
+                        <h2>Titel</h2>
                     </li>
                 </ul>
                 <a class="close" href="#">&times;</a>
@@ -379,22 +426,22 @@
 
         <div id="popup4-auteur" class="overlay">
             <div class="popup">
-                <h2>Meer van deze auteur</h2>
+                <h1>Meer van deze auteur</h1>
                 
                 <ul class="book-recs">
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt="uitleenpagina boek"></a>
-                        <h3>Titel</h3>
+                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
+                        <h2>Titel</h2>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt="uitleenpagina boek"></a>
-                        <h3>Titel</h3>
+                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
+                        <h2>Titel</h2>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt="uitleenpagina boek"></a>
-                        <h3>Titel</h3>
+                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
+                        <h2>Titel</h2>
                     </li>
                 </ul>
                 <a class="close" href="#">&times;</a>
@@ -403,22 +450,22 @@
 
         <div id="popup5-auteur" class="overlay">
             <div class="popup">
-                <h2>Meer van deze auteur</h2>
+                <h1>Meer van deze auteur</h1>
                 
                 <ul class="book-recs">
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt="uitleenpagina boek"></a>
-                        <h3>Titel</h3>
+                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
+                        <h2>Titel</h2>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt="uitleenpagina boek"></a>
-                        <h3>Titel</h3>
+                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
+                        <h2>Titel</h2>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt="uitleenpagina boek"></a>
-                        <h3>Titel</h3>
+                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
+                        <h2>Titel</h2>
                     </li>
                 </ul>
                 <a class="close" href="#">&times;</a>
@@ -427,22 +474,22 @@
 
         <div id="popup6-auteur" class="overlay">
             <div class="popup">
-                <h2>Meer van deze auteur</h2>
+                <h1>Meer van deze auteur</h1>
                 
                 <ul class="book-recs">
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt="uitleenpagina boek"></a>
-                        <h3>Titel</h3>
+                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
+                        <h2>Titel</h2>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt="uitleenpagina boek"></a>
-                        <h3>Titel</h3>
+                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
+                        <h2>Titel</h2>
                     </li>
 
                     <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt="uitleenpagina boek"></a>
-                        <h3>Titel</h3>
+                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
+                        <h2>Titel</h2>
                     </li>
                 </ul>
                 <a class="close" href="#">&times;</a>

@@ -60,8 +60,8 @@ body.dark{
     --toggle-color: #fff;
     --text-color: #ccc;
 }
-
-/* ===== Sidebar ===== */
+  
+/* ===== Sidebar ===== 
  .sidebar{
     position: fixed;
     top: 0;
@@ -77,7 +77,7 @@ body.dark{
     width: 88px;
 }
 
-/* ===== Reusable code - Here ===== */
+/* ===== Reusable code - Here ===== 
 .sidebar li{
     height: 50px;
     list-style: none;
@@ -135,7 +135,7 @@ body.dark{
     opacity: 0;
 }
 
-/* =========================== */
+/* =========================== 
 
 .sidebar header{
     position: relative;
@@ -255,44 +255,169 @@ body.dark .sidebar li a:hover .text{
 }
 .menu-bar::-webkit-scrollbar{
     display: none;
+} */
+
+
+/* Navigatie */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    margin-bottom: 1.5rem;
+    /* width: 100vw; */
+    background-color: white;
 }
-.sidebar .menu-bar .mode{
-    border-radius: 6px;
-    background-color: var(--primary-color-light);
+
+/* Dropdown Button */
+.dropbtn {
+    margin-left: 0.5rem;
+    height: 100%;
+    width: 3.5rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--primary-color);
+    transition: var(--tran-03);
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
     position: relative;
+    display: inline-block;
+}
+  
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    width: 100vw;
+    background-color: white;
+    z-index: 1;
+    /* height: 100vh; */
+    /*overflow: auto; */
+    font-size: 1rem;
+}
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 12px .5rem;
+    height: 3rem;
+    text-decoration: none;
+    border-radius: 6px;
+    color: var(--text-color);
+    transition: var(--tran-03);
+}
+  
+.bottom-content {
+    width: 100vw;
+    margin-top: 4rem;
+    /* position: absolute;
+    bottom: 0; */
+}
+  
+.dropdown-content .bx {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+}
+  
+.search {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 12px .5rem;
+    height: 3rem;
+    background-color: var(--primary-color-light);
+    border-radius: 6px;
+}
+  
+.search input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: var(--primary-color-light);  
+}
+
+.person {
+    display: flex;
+    align-items: center;
+}
+  
+.person img {
+    margin-right: 1rem;
+    width: 3.5rem;
+    border-radius: 50%;
+}
+  
+.img-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--text-color);
+    font-size: 1rem;
+    margin: 0 1rem;
+}
+
+.img-text p:nth-child(1) {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display:block;
+}
+
+.mode {
+    display: flex;
+    position: relative;
+    margin: 0.5rem;
+    padding: 12px .5rem;
+    border-radius: 6px;
+    color: var(--text-color);
+    background-color: var(--primary-color-light);
     transition: var(--tran-05);
 }
 
-.menu-bar .mode .sun-moon{
-    height: 50px;
-    width: 60px;
+.mode .sun-moon {
+    /* height: 50px; */
+    width: 2.25rem;
 }
 
-.mode .sun-moon i{
+.mode .sun-moon i {
     position: absolute;
 }
-.mode .sun-moon i.sun{
+.mode .sun-moon i.sun {
     opacity: 0;
 }
-body.dark .mode .sun-moon i.sun{
+body.dark .mode .sun-moon i.sun {
     opacity: 1;
 }
-body.dark .mode .sun-moon i.moon{
+body.dark .mode .sun-moon i.moon {
     opacity: 0;
 }
 
-.menu-bar .bottom-content .toggle-switch{
+.bottom-content .toggle-switch {
     position: absolute;
     right: 0;
+    margin-right: 0.5rem;
     height: 100%;
-    min-width: 60px;
+    /* min-width: 60px; */
     display: flex;
-    align-items: center;
     justify-content: center;
     border-radius: 6px;
     cursor: pointer;
 }
-.toggle-switch .switch{
+.toggle-switch .switch {
     position: relative;
     height: 22px;
     width: 40px;
@@ -301,7 +426,7 @@ body.dark .mode .sun-moon i.moon{
     transition: var(--tran-05);
 }
 
-.switch::before{
+.switch::before {
     content: '';
     position: absolute;
     height: 15px;
@@ -314,11 +439,11 @@ body.dark .mode .sun-moon i.moon{
     transition: var(--tran-04);
 }
 
-body.dark .switch::before{
+body.dark .switch::before {
     left: 20px;
-}
+} 
 
-.home{
+/* .home{
     position: absolute;
     top: 0;
     top: 0;
@@ -328,12 +453,15 @@ body.dark .switch::before{
     background-color: var(--body-color);
     transition: var(--tran-05);
     padding-left: 1rem;
-}
+} */
+
 .home .text{
     font-size: 30px;
     font-weight: 500;
     color: var(--text-color);
-    padding: 12px 0 12px 12px/*60px*/;
+    margin-bottom: 1.5rem;
+    /* padding: 0 0 12px 1rem60px; */
+    text-align: center;
 }
 
 .sidebar.close ~ .home{
@@ -345,15 +473,13 @@ body.dark .home .text{
     color: var(--text-color);
 }
 
-/* Einde Ambers format */
-
-/* Eigen werk */
+/* Main */
 
 main {
     color: var(--text-color);
     display: flex;
     flex-direction: column;
-    max-width: 120rem;
+    /* max-width: 120rem; */
 }
 
 h1 {
@@ -393,7 +519,7 @@ input {
     text-align: center;
 }
 
-button {
+.buttons button {
     margin: 0 0.5rem 0.5rem 0;
     padding: 0.5rem 0.75rem;
     border: none;
@@ -403,7 +529,7 @@ button {
     font-size: 1rem;
     color: white;
     cursor: pointer;
-    transition: 0.2s ease-in-out;
+    transition: var(--tran-03);
 }
 
 /* Boekenlijst */
@@ -418,7 +544,7 @@ button {
     box-shadow: 5px 5px 5px rgb(204, 204, 204);
     width: 180px;
     height: 285px;
-    transition: 0.2s ease-in-out;   
+    transition: var(--tran-03); 
 }
 
 .book h2 {
@@ -436,7 +562,7 @@ button {
     border-radius: 1rem;
     color: var(--text-color);
     box-shadow: 3px 3px 2px rgb(187, 187, 187);
-    transition: 0.2s ease-in-out;
+    transition: var(--tran-03);
 }
 
 /* Popups info & auteur */
@@ -496,13 +622,22 @@ body:has(.overlay:target) main {
     padding-right: 0.5rem;
 }
 
-.popup h2 {
+.popup h1 {
     margin-bottom: 1rem;
     margin-top: 1rem;
+    font-size: 1.875rem;
 }
 
+.popup h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.popup .book-small h2,
 .book-small h3 {
     padding-left: 1rem;
+    font-size: 1.2rem;
+    margin: 0;
 }
 
 .book-small img {
@@ -541,7 +676,7 @@ body:has(.overlay:target) main {
     height: 100%;
     object-fit: cover;
     border-radius: .5rem;
-    padding-right: 0.25rem; 
+    /* padding-right: 0.25rem;  */
 }
 
 .activity h3 {
@@ -586,11 +721,15 @@ body:has(.overlay:target) main {
     text-decoration: underline;
 }
 
+.dropbtn:hover, 
+.dropbtn:focus,
+.dropdown-content a:hover,
+.dropdown-content a:focus,
 .activity h3 a:hover,
 .activity h3 a:focus,
 .book a:nth-child(4):hover,
 .book a:nth-child(4):focus {
-  background: #EB0000;
+  background: var(--primary-color);
   color: white;
 }
 
@@ -643,7 +782,11 @@ body.dark .home .book a:focus {
 
 @media (min-width: 47rem) {
     .home {
-        padding-left: 2rem;
+        padding-left: 1rem;
+    }
+
+    .home .text {
+        text-align: start;
     }
 
     h1 {
@@ -697,4 +840,11 @@ body.dark .home .book a:focus {
     .activity {
         margin: 1rem;
     }
+
+    .dropdown-content {
+        width: auto;
+      }
+      .bottom-content {
+        width: 100%;
+      }
 }
