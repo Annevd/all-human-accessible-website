@@ -888,7 +888,7 @@ body.dark main .book a:focus {
     }
 
     .dropdown-content {
-        width: auto;
+        width: 16rem;
       }
       .bottom-content {
         width: 100%;
