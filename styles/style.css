@@ -260,16 +260,16 @@ body.dark .sidebar li a:hover .text{
 /* Skip to content link */
 
 .skip-link {
+    position: absolute;
+    top: 0;
+    left: 4.5rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
     background: var(--primary-color);
     color: #fff;
     font-weight: 700;
     text-align: center;
     text-decoration: none;
-    top: 0;
-    left: 4.5rem;
-    padding: .5rem;
-    border-radius: 1rem;
-    position: absolute;
     transform: translateY(-100%);
     transition: transform 0.3s;
     z-index: 100;
@@ -321,10 +321,10 @@ nav {
     min-width: 160px;
     width: 100vw;
     background-color: white;
-    z-index: 100;
     /* height: 100vh; */
     overflow: scroll;
     font-size: 1rem;
+    z-index: 100;
 }
   
   /* Links inside the dropdown */
@@ -358,7 +358,7 @@ nav {
     display: flex;
     align-items: center;
     margin: 0.5rem;
-    padding: 12px .5rem;
+    padding: 0.75rem 0.5rem;
     height: 3rem;
     background-color: var(--primary-color-light);
     border-radius: 6px;
@@ -406,7 +406,7 @@ nav {
     display: flex;
     position: relative;
     margin: 0.5rem;
-    padding: 12px .5rem;
+    padding: 0.75rem 0.5rem;
     border-radius: 6px;
     color: var(--text-color);
     background-color: var(--primary-color-light);
@@ -421,12 +421,15 @@ nav {
 .mode .sun-moon i {
     position: absolute;
 }
+
 .mode .sun-moon i.sun {
     opacity: 0;
 }
+
 body.dark .mode .sun-moon i.sun {
     opacity: 1;
 }
+
 body.dark .mode .sun-moon i.moon {
     opacity: 0;
 }
@@ -442,6 +445,7 @@ body.dark .mode .sun-moon i.moon {
     border-radius: 6px;
     cursor: pointer;
 }
+
 .toggle-switch .switch {
     position: relative;
     height: 22px;
@@ -467,29 +471,6 @@ body.dark .mode .sun-moon i.moon {
 body.dark .switch::before {
     left: 20px;
 } 
-
-/* .home{
-    position: absolute;
-    top: 0;
-    top: 0;
-    left: 250px;
-    height: 100vh;
-    width: calc(100% - 250px);
-    background-color: var(--body-color);
-    transition: var(--tran-05);
-    padding-left: 1rem;
-} */
-
-
-/* .sidebar.close ~ main {
-    left: 78px;
-    height: 100vh;
-    width: calc(100% - 78px);
-} */
-
-/* body.dark main .text{
-    color: var(--text-color);
-} */
 
 /* Main */
 
