@@ -18,10 +18,13 @@ function myFunction() {
     }
   }
 
-// const body = document.querySelector('body'),
+  
+// Dark mode:
+
 // sidebar = body.querySelector('nav'),
-// toggle = body.querySelector(".toggle"),
 // searchBtn = body.querySelector(".search-box"),
+const body = document.querySelector('body')
+toggle = body.querySelector(".toggle"),
 modeSwitch = body.querySelector(".toggle-switch"),
 modeText = body.querySelector(".mode-text");
 
