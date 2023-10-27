@@ -611,7 +611,7 @@ body:has(.overlay:target) main {
   position: absolute;
   top: 20px;
   right: 30px;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   text-decoration: none;
   color: var(--primary-color);
@@ -784,8 +784,7 @@ body.dark main .buttons button {
 }
 
 body.dark main .buttons button:hover,
-body.dark main .buttons button:focus,
-body.dark main .popup {
+body.dark main .buttons button:focus {
   background: white;
   color: var(--primary-color);
 }
@@ -800,6 +799,14 @@ body.dark main .book a:nth-child(4):hover,
 body.dark main .book a:nth-child(4):focus {
   background: #EB0000;
   color: white;
+}
+
+body.dark main .popup {
+    background: var(--sidebar-color);
+}
+
+body.dark main .overlay {
+    background: rgb(255 255 255 / 42%);
 }
 
 /* Media queries */
@@ -834,6 +841,10 @@ body.dark main .book a:nth-child(4):focus {
 
     .popup {
         width: 50%;
+    }
+
+    .book-recs {
+        overflow-x: hidden;
     }
 
     .book {
