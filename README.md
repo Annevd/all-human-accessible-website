@@ -24,27 +24,31 @@ Ook kan je op de boekcover klikken om doorgeleid te worden naar de oba pagina wa
 
 ### Groot scherm lightmode
 
-![Schermafbeelding 2023-10-20 104543](https://github.com/Annevd/all-human-accessible-website/assets/144004647/7ca91da8-daed-45e9-aef6-98b66eb60c05)
+![website groot scherm lightmode](https://github.com/Annevd/all-human-accessible-website/assets/144004647/94cae7bf-9336-4d9b-9075-d7788a9efe5e)
 
 ### Groot scherm darkmode
 
-![Schermafbeelding 2023-10-20 104640](https://github.com/Annevd/all-human-accessible-website/assets/144004647/71b62347-b68f-4705-a53b-a4b6fe951d40)
+![website groot scherm darkmode](https://github.com/Annevd/all-human-accessible-website/assets/144004647/57f8dd56-4b32-411f-a376-625b6dd704e6)
 
-### Groot scherm popup
+### Groot scherm popup lightmode
 
-![Schermafbeelding 2023-10-20 104731](https://github.com/Annevd/all-human-accessible-website/assets/144004647/65c1ff84-7bbe-4781-80f0-201f5ecab81e)
+![website groot scherm popup](https://github.com/Annevd/all-human-accessible-website/assets/144004647/5a852507-ca29-44b1-9f09-18cbd895ed34)
+
+### Groot scherm popup darkmode
+
+![website groot scherm popup darkmode](https://github.com/Annevd/all-human-accessible-website/assets/144004647/0de83fdf-465f-4ed6-b276-79102ca57b99)
 
 ### Klein scherm lightmode
 
-![Schermafbeelding 2023-10-20 104846](https://github.com/Annevd/all-human-accessible-website/assets/144004647/a98c254c-e695-4268-b5e8-1abf068ed751)
+![website klein scherm lightmode](https://github.com/Annevd/all-human-accessible-website/assets/144004647/7b81b6c5-df0b-4d39-92da-698909931213)
 
 ### Klein scherm darkmode
 
-![Schermafbeelding 2023-10-20 104949](https://github.com/Annevd/all-human-accessible-website/assets/144004647/25a0141a-91e4-4850-a980-b443297991ee)
+![website klein scherm dark mode](https://github.com/Annevd/all-human-accessible-website/assets/144004647/cf0faa6d-3301-40ed-961a-0127c458ac6a)
 
 ### Klein scherm popup
 
-![Schermafbeelding 2023-10-20 105046](https://github.com/Annevd/all-human-accessible-website/assets/144004647/79a50ddc-2cb0-410a-9dbf-7fa64a64a6e8)
+![website klein scherm popup](https://github.com/Annevd/all-human-accessible-website/assets/144004647/3822f8ca-6e36-4936-9fe8-8dccc53c0a1c)
 
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
@@ -54,7 +58,7 @@ Ook kan je op de boekcover klikken om doorgeleid te worden naar de oba pagina wa
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
-Voor deze website heb ik HTML en CSS gebruikt. De HTML is gestructureerd in articles, divs en een section. De belangrijkste dingen met css zijn de grids op de boekenlijst en op de aanbevolen activiteiten. Daarnaast gebruik ik flex om de boeken, titels, auteur en de info knop onder elkaar te zetten. Bekijk mijn [wiki](https://github.com/Annevd/all-human-accessible-website/wiki) voor nog meer uitleg over de code!
+Voor deze website heb ik HTML en CSS gebruikt. De HTML is gestructureerd in articles, divs en een section. De belangrijkste dingen met css zijn de grids op de boekenlijst en op de aanbevolen activiteiten. Daarnaast gebruik ik flex om de boeken, titels, auteur en de info knop onder elkaar te zetten. Verder gebruik ik ```position: fixed;``` om de navigatie altijd vast bovenaan de pagina te houden. Bekijk mijn [wiki](https://github.com/Annevd/all-human-accessible-website/wiki) voor nog meer uitleg over de code!
 
 
 ## Bronnen
