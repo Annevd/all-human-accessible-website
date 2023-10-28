@@ -18,24 +18,22 @@ function myFunction() {
     }
   }
 
+// Zorgt ervoor dat je op de zoekbalk kan klikken zonder dat het menu weggaat
+
+document.getElementById("myDropdown").addEventListener("click",
+function(e) {
+
+e.stopPropagation();
+
+});
+
   
 // Dark mode:
 
-// sidebar = body.querySelector('nav'),
-// searchBtn = body.querySelector(".search-box"),
 const body = document.querySelector('body')
 toggle = body.querySelector(".toggle"),
 modeSwitch = body.querySelector(".toggle-switch"),
 modeText = body.querySelector(".mode-text");
-
-
-// toggle.addEventListener("click" , () =>{
-//     sidebar.classList.toggle("close");
-// })
-
-// searchBtn.addEventListener("click" , () =>{
-//     sidebar.classList.remove("close");
-// })
 
 modeSwitch.addEventListener("click" , () =>{
     body.classList.toggle("dark");

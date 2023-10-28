@@ -17,124 +17,7 @@
     <title>Mijn OBA</title> 
 </head>
 <body>
-
-    <!-- <nav class="sidebar close">
-        <header>
-            <div class="image-text">
-                <p class="image">
-                    <img src="./images/foto-anne.jpg" alt="Gebruiker-foto">
-                </p>
-
-                <div class="text logo-text">
-                    <p class="name">Anne van Dijk</p>
-                    <p class="profession">5 jaar lid</p>
-                </div>
-            </div>
-
-            <i class='bx bx-chevron-right toggle'></i>
-        </header>
-
-        <div class="menu-bar">
-            <div class="menu">
-
-                <ul>
-                <li class="search-box">
-                    <i class='bx bx-search icon'></i>
-                    <input type="text" placeholder="Zoek...">
-                </li>
-                </ul>
-
-                <ul class="menu-links">
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-home icon'></i>
-                            <p class="text nav-text">Welkom</p>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-list-ul icon'></i>
-                            <p class="text nav-text">Leeslijst</p>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
-                            <p class="text-long nav-text">Uitleningen en verlengen</p>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="index.html">
-                            <i class='bx bx-bell icon'></i>
-                            <p class="text nav-text">Uitleengeschiedenis</p>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-pie-chart-alt icon' ></i>
-                            <p class="text nav-text">Betaalgeschiedenis</p>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-heart icon' ></i>
-                            <p class="text nav-text">Reserveringen</p>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-wallet icon' ></i>
-                            <p class="text nav-text">Desposito's</p>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-wallet icon' ></i>
-                            <p class="text nav-text">Tellerstand abonnement</p>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="bottom-content">
-               <ul>
-                <li class="">
-                    <a href="#">
-                        <i class='bx bx-log-out icon' ></i>
-                        <p class="text nav-text">Uitloggen</p>
-                    </a>
-                </li>
-               </ul>
-
-               <ul>
-                <li class="mode">
-                    <div class="sun-moon">
-                        <i class='bx bx-moon icon moon'></i>
-                        <i class='bx bx-sun icon sun'></i>
-                    </div>
-                    <p class="mode-text text">Dark mode</p>
-
-                    <div class="toggle-switch">
-                        <p class="switch"></p>
-                    </div>
-                </li>
-                </ul>
-                
-            </div>
-        </div>
-
-    </nav> -->
-
-    <!-- Einde Ambers format -->
-
-    <!-- Eigen werk -->
+    
     <header>
         <a class="skip-link" href='#main'>Direct naar content</a>
         <nav>
@@ -142,7 +25,8 @@
                 <button onclick="myFunction()" class='dropbtn bx bx-menu' aria-label="navigation"></button>
                 <div id="myDropdown" class="dropdown-content">
 
-                    <form class="search">
+                    <div>
+                    <form class="search-nav">
                         <i class='bx bx-search icon'></i>
                         <input type="text" placeholder="Zoek...">
                     </form>
@@ -155,7 +39,7 @@
                     <a href="#"><i class='bx bx-heart'></i>Reserveringen</a>
                     <a href="#"><i class='bx bx-wallet'></i>Desposito's</a>
                     <a href="#"><i class='bx bx-wallet'></i>Tellerstand abonnementen</a>
-
+                    </div>
                     <div class="bottom-content">
                         <a href="#"><i class='bx bx-log-out'></i>Uitloggen</a>
                         <div class="mode">
@@ -166,7 +50,7 @@
                             <p class="mode-text text">Dark mode</p>
         
                             <div class="toggle-switch" >
-                                <p class="switch"></p>
+                                <input type="checkbox" class="switch"></input>
                             </div>
                         </div>
                     </div>
@@ -174,7 +58,7 @@
             </div>
 
             <div class="person">
-                <div class="img-text">
+                <div class="person-text">
                     <p>Anne van Dijk</p>
                     <p> 5 jaar lid</p>
                 </div>
@@ -186,322 +70,12 @@
     <main id="main">
 
         <div class="text"><img src="./images/oba_20.png" alt=""></div>
-
-        <!-- Popup infoknop -->
-
-        <div id="popup1-info" class="overlay">
-            <div class="popup">
-                <h1>Informatie</h1>
-                <p>Uitgeleend op 1 oktober juni 2023</p>
-                <p>Ingeleverd op 10 oktober 2023</p>
-                <h2>Meer van dit soort boeken</h2>
-
-                <ul class="book-recs">
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
-                        <h3>Titel</h3>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
-                        <h3>Titel</h3>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
-                        <h3>Titel</h3>
-                    </li>
-                </ul>
-                <a class="close" href="#" aria-label="close">&times;</a>
-            </div>
-        </div>
-
-        <div id="popup2-info" class="overlay">
-            <div class="popup">
-                <h1>Informatie</h1>
-                <p>Uitgeleend op  28 september 2023</p>
-                <p>Ingeleverd op 3 oktober 2023</p>
-                <h2>Meer van dit soort boeken</h2>
-                
-                <ul class="book-recs">
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
-                        <h3>Titel</h3>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
-                        <h3>Titel</h3>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
-                        <h3>Titel</h3>
-                    </li>
-                </ul>
-                <a class="close" href="#" aria-label="close">&times;</a>
-            </div>
-        </div>
-
-        <div id="popup3-info" class="overlay">
-            <div class="popup">
-                <h1>Informatie</h1>
-                <p>Uitgeleend op 12 augustus 2023</p>
-                <p>Ingeleverd op 20 augustus 2023</p>
-                <h2>Meer van dit soort boeken</h2>
-
-                <ul class="book-recs">
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
-                        <h3>Titel</h3>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
-                        <h3>Titel</h3>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
-                        <h3>Titel</h3>
-                    </li>
-                </ul>
-                <a class="close" href="#" aria-label="close">&times;</a>
-            </div>
-        </div>
-
-        <div id="popup4-info" class="overlay">
-            <div class="popup">
-                <h1>Informatie</h1>
-                <p>Uitgeleend op 8 juli 2023</p>
-                <p>Ingeleverd op 20 juli 2023</p>
-                <h2>Meer van dit soort boeken</h2>
-
-                <ul class="book-recs">
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
-                        <h3>Titel</h3>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
-                        <h3>Titel</h3>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
-                        <h3>Titel</h3>
-                    </li>
-                </ul>
-                <a class="close" href="#" aria-label="close">&times;</a>
-            </div>
-        </div>
-
-        <div id="popup5-info" class="overlay">
-            <div class="popup">
-                <h1>Informatie</h1>
-                <p>Uitgeleend op 23 maart 2023</p>
-                <p>Ingeleverd op 29 maart 2023</p>
-                <h2>Meer van dit soort boeken</h2>
-
-                <ul class="book-recs">
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
-                        <h3>Titel</h3>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
-                        <h3>Titel</h3>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
-                        <h3>Titel</h3>
-                    </li>
-                </ul>
-                <a class="close" href="#" aria-label="close">&times;</a>
-            </div>
-        </div>
-
-        <div id="popup6-info" class="overlay">
-            <div class="popup">
-                <h1>Informatie</h1>
-                <p>Uitgeleend op 1 januari 2023</p>
-                <p>Ingeleverd op 5 februari 2023</p>
-                <h2>Meer van dit soort boeken</h2>
-
-                <ul class="book-recs">
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
-                        <h3>Titel</h3>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
-                        <h3>Titel</h3>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
-                        <h3>Titel</h3>
-                    </li>
-                </ul>
-                <a class="close" href="#" aria-label="close">&times;</a>
-            </div>
-        </div>
-
-          <!-- Popup Auteur -->
-
-        <div id="popup1-auteur" class="overlay">
-            <div class="popup">
-                <h1>Meer van deze auteur</h1>
-                
-                <ul class="book-recs">
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
-                        <h2>Titel</h2>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
-                        <h2>Titel</h2>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
-                        <h2>Titel</h2>
-                    </li>
-                </ul>
-                <a class="close" href="#" aria-label="close">&times;</a>
-            </div>
-        </div>
-
-        <div id="popup2-auteur" class="overlay">
-            <div class="popup">
-                <h1>Meer van deze auteur</h1>
-                
-                <ul class="book-recs">
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
-                        <h2>Titel</h2>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
-                        <h2>Titel</h2>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
-                        <h2>Titel</h2>
-                    </li>
-                </ul>
-                <a class="close" href="#" aria-label="close">&times;</a>
-            </div>
-        </div>
-
-        <div id="popup3-auteur" class="overlay">
-            <div class="popup">
-                <h1>Meer van deze auteur</h1>
-                
-                <ul class="book-recs">
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
-                        <h2>Titel</h2>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
-                        <h2>Titel</h2>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
-                        <h2>Titel</h2>
-                    </li>
-                </ul>
-                <a class="close" href="#" aria-label="close">&times;</a>
-            </div>
-        </div>
-
-        <div id="popup4-auteur" class="overlay">
-            <div class="popup">
-                <h1>Meer van deze auteur</h1>
-                
-                <ul class="book-recs">
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
-                        <h2>Titel</h2>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
-                        <h2>Titel</h2>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
-                        <h2>Titel</h2>
-                    </li>
-                </ul>
-                <a class="close" href="#" aria-label="close">&times;</a>
-            </div>
-        </div>
-
-        <div id="popup5-auteur" class="overlay">
-            <div class="popup">
-                <h1>Meer van deze auteur</h1>
-                
-                <ul class="book-recs">
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
-                        <h2>Titel</h2>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
-                        <h2>Titel</h2>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
-                        <h2>Titel</h2>
-                    </li>
-                </ul>
-                <a class="close" href="#" aria-label="close">&times;</a>
-            </div>
-        </div>
-
-        <div id="popup6-auteur" class="overlay">
-            <div class="popup">
-                <h1>Meer van deze auteur</h1>
-                
-                <ul class="book-recs">
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-6.png" alt=""></a>
-                        <h2>Titel</h2>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-9.png" alt=""></a>
-                        <h2>Titel</h2>
-                    </li>
-
-                    <li class="book-small">
-                        <a href=""><img src="./images/books/book-7.png" alt=""></a>
-                        <h2>Titel</h2>
-                    </li>
-                </ul>
-                <a class="close" href="#" aria-label="close">&times;</a>
-            </div>
-        </div>
         
         <h1>Uitleengeschiedenis</h1>
 
         <!-- Zoekbalk -->
 
-        <form>
+        <form class="search">
             <input type="text" placeholder="Zoek..." name="search">
             <i class="bx bx-search"></i>
         </form>
@@ -518,46 +92,356 @@
 
         <div class="book-list">
             <article class="book">
-                <a href="https://zoeken.oba.nl/detail/Michel-Faber/The-book-of-strange-new-things/Boek/?itemid=%7Coba-catalogus%7C1126633"><img src="./images/books/boek1.jpg" alt="uitleenpagina boek"></a>
+                <a href="https://zoeken.oba.nl/detail/Michel-Faber/The-book-of-strange-new-things/Boek/?itemid=%7Coba-catalogus%7C1126633"><img src="./images/books/boek1.jpg" alt="Uitleenpagina"></a>
                 <h2>The book of strange new things</h2>
                 <a href="#popup1-auteur"><p>Michel Faber</p></a>
                 <a href="#popup1-info">Info</a>
             </article>
 
             <article class="book">
-                <a href="https://zoeken.oba.nl/detail/Paul-Beatty/The-sellout/Boek/?itemid=%7Coba-catalogus%7C1160751"><img src="./images/books/boek2.png" alt="uitleenpagina boek"></a>
+                <a href="https://zoeken.oba.nl/detail/Paul-Beatty/The-sellout/Boek/?itemid=%7Coba-catalogus%7C1160751"><img src="./images/books/boek2.png" alt="Uitleenpagina"></a>
                 <h2>The sellout</h2>
                 <a href="#popup2-auteur"><p>Paul Beatty</p></a>
                 <a href="#popup2-info">Info</a>
             </article>
 
             <article class="book">
-                <a href="https://zoeken.oba.nl/detail/Manon-Uphoff/Vallen-is-als-vliegen/Boek/?itemid=%7Coba-catalogus%7C1213697"><img src="./images/books/boek3.jpg" alt="uitleenpagina boek"></a>
+                <a href="https://zoeken.oba.nl/detail/Manon-Uphoff/Vallen-is-als-vliegen/Boek/?itemid=%7Coba-catalogus%7C1213697"><img src="./images/books/boek3.jpg" alt="Uitleenpagina"></a>
                 <h2>Vallen is als vliegen</h2>
                 <a href="#popup3-auteur"><p>Manon Uphoff</p></a>
                 <a href="#popup3-info">Info</a>
             </article>
 
             <article class="book">
-                <a href="https://zoeken.oba.nl/detail/Marieke-Lucas-Rijneveld/De-avond-is-ongemak-roman/Boek/?itemid=%7Coba-catalogus%7C1233837"><img src="./images/books/boek4.jpg" alt="uitleenpagina boek"></a>
+                <a href="https://zoeken.oba.nl/detail/Marieke-Lucas-Rijneveld/De-avond-is-ongemak-roman/Boek/?itemid=%7Coba-catalogus%7C1233837"><img src="./images/books/boek4.jpg" alt="Uitleenpagina"></a>
                 <h2>De avond is ongemak</h2>
                 <a href="#popup4-auteur"><p>Marieke Lucas Rijneveld</p></a>
                 <a href="#popup4-info">Info</a>
             </article>
 
             <article class="book">
-                <a href="https://zoeken.oba.nl/detail/Jan-Siebelink/Knielen-op-een-bed-violen-roman/Boek/?itemid=%7Coba-catalogus%7C930526"><img src="./images/books/boek5.jpg" alt="uitleenpagina boek"></a>
+                <a href="https://zoeken.oba.nl/detail/Jan-Siebelink/Knielen-op-een-bed-violen-roman/Boek/?itemid=%7Coba-catalogus%7C930526"><img src="./images/books/boek5.jpg" alt="Uitleenpagina"></a>
                 <h2>Knielen op een bed violen</h2>
                 <a href="#popup5-auteur"><p>Jan Siebelink</p></a>
                 <a href="#popup5-info">Info</a>
             </article>
 
             <article class="book">
-                <a href="https://zoeken.oba.nl/detail/Tommy-Wieringa/De-heilige-Rita-roman/Boek/?itemid=%7Coba-catalogus%7C1176160"><img src="./images/books/boek6.jpg" alt="uitleenpagina boek"></a>
+                <a href="https://zoeken.oba.nl/detail/Tommy-Wieringa/De-heilige-Rita-roman/Boek/?itemid=%7Coba-catalogus%7C1176160"><img src="./images/books/boek6.jpg" alt="Uitleenpagina"></a>
                 <h2>De heilige Rita</h2>
                 <a href="#popup6-auteur"><p>Tommy Wieringa</p></a>
                 <a href="#popup6-info">Info</a>
             </article>
+        </div>
+
+        <!-- Popup Auteur -->
+
+        <div id="popup1-auteur" class="overlay">
+            <div class="popup">
+                <h2>Meer van deze auteur</h2>
+                
+                <ul class="book-recs">
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-6.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-9.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-7.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+                </ul>
+                <a class="close" href="#" aria-hidden="true" aria-label="close">&times;</a>
+            </div>
+        </div>
+
+        <div id="popup2-auteur" class="overlay">
+            <div class="popup">
+                <h2>Meer van deze auteur</h2>
+                
+                <ul class="book-recs">
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-6.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-9.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-7.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+                </ul>
+                <a class="close" href="#" aria-hidden="true" aria-label="close">&times;</a>
+            </div>
+        </div>
+
+        <div id="popup3-auteur" class="overlay">
+            <div class="popup">
+                <h2>Meer van deze auteur</h2>
+                
+                <ul class="book-recs">
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-6.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-9.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-7.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+                </ul>
+                <a class="close" href="#" aria-hidden="true" aria-label="close">&times;</a>
+            </div>
+        </div>
+
+        <div id="popup4-auteur" class="overlay">
+            <div class="popup">
+                <h2>Meer van deze auteur</h2>
+                
+                <ul class="book-recs">
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-6.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-9.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-7.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+                </ul>
+                <a class="close" href="#" aria-hidden="true" aria-label="close">&times;</a>
+            </div>
+        </div>
+
+        <div id="popup5-auteur" class="overlay">
+            <div class="popup">
+                <h2>Meer van deze auteur</h2>
+                
+                <ul class="book-recs">
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-6.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-9.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-7.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+                </ul>
+                <a class="close" href="#" aria-hidden="true" aria-label="close">&times;</a>
+            </div>
+        </div>
+
+        <div id="popup6-auteur" class="overlay">
+            <div class="popup">
+                <h2>Meer van deze auteur</h2>
+                
+                <ul class="book-recs">
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-6.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-9.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-7.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+                </ul>
+                <a class="close" href="#" aria-hidden="true" aria-label="close">&times;</a>
+            </div>
+        </div>
+
+        <!-- Popup infoknop -->
+
+        <div id="popup1-info" class="overlay">
+            <div class="popup">
+                <h2>Informatie</h2>
+                <p>Uitgeleend op 1 oktober juni 2023</p>
+                <p>Ingeleverd op 10 oktober 2023</p>
+                <h2>Meer van dit soort boeken</h2>
+
+                <ul class="book-recs">
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-6.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-9.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-7.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+                </ul>
+                <a class="close" href="#" aria-hidden="true" aria-label="close">&times;</a>
+            </div>
+        </div>
+
+        <div id="popup2-info" class="overlay">
+            <div class="popup">
+                <h2>Informatie</h2>
+                <p>Uitgeleend op  28 september 2023</p>
+                <p>Ingeleverd op 3 oktober 2023</p>
+                <h2>Meer van dit soort boeken</h2>
+                
+                <ul class="book-recs">
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-6.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-9.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-7.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+                </ul>
+                <a class="close" href="#" aria-hidden="true" aria-label="close">&times;</a>
+            </div>
+        </div>
+
+        <div id="popup3-info" class="overlay">
+            <div class="popup">
+                <h2>Informatie</h2>
+                <p>Uitgeleend op 12 augustus 2023</p>
+                <p>Ingeleverd op 20 augustus 2023</p>
+                <h2>Meer van dit soort boeken</h2>
+
+                <ul class="book-recs">
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-6.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-9.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-7.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+                </ul>
+                <a class="close" href="#" aria-hidden="true" aria-label="close">&times;</a>
+            </div>
+        </div>
+
+        <div id="popup4-info" class="overlay">
+            <div class="popup">
+                <h2>Informatie</h2>
+                <p>Uitgeleend op 8 juli 2023</p>
+                <p>Ingeleverd op 20 juli 2023</p>
+                <h2>Meer van dit soort boeken</h2>
+
+                <ul class="book-recs">
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-6.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-9.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-7.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+                </ul>
+                <a class="close" href="#" aria-hidden="true" aria-label="close">&times;</a>
+            </div>
+        </div>
+
+        <div id="popup5-info" class="overlay">
+            <div class="popup">
+                <h2>Informatie</h2>
+                <p>Uitgeleend op 23 maart 2023</p>
+                <p>Ingeleverd op 29 maart 2023</p>
+                <h2>Meer van dit soort boeken</h2>
+
+                <ul class="book-recs">
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-6.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-9.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-7.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+                </ul>
+                <a class="close" href="#" aria-hidden="true" aria-label="close">&times;</a>
+            </div>
+        </div>
+
+        <div id="popup6-info" class="overlay">
+            <div class="popup">
+                <h2>Informatie</h2>
+                <p>Uitgeleend op 1 januari 2023</p>
+                <p>Ingeleverd op 5 februari 2023</p>
+                <h2>Meer van dit soort boeken</h2>
+
+                <ul class="book-recs">
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-6.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-9.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+
+                    <li class="book-small">
+                        <a href="#"><img src="./images/books/book-7.png" alt="Uitleenpagina"></a>
+                        <h3>Titel</h3>
+                    </li>
+                </ul>
+                <a class="close" href="#" aria-hidden="true" aria-label="close">&times;</a>
+            </div>
         </div>
 
         <!-- Aanbevolen activiteiten -->
