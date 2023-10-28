@@ -26,6 +26,10 @@ Ook kan je op de boekcover klikken om doorgeleid te worden naar de oba pagina wa
 
 ![website groot scherm lightmode](https://github.com/Annevd/all-human-accessible-website/assets/144004647/94cae7bf-9336-4d9b-9075-d7788a9efe5e)
 
+### Groot scherm lightmode navigatie uitgeklapt
+
+![website groot scherm navigatie](https://github.com/Annevd/all-human-accessible-website/assets/144004647/9cde1a53-4e93-4601-878b-28d94506fc38)
+
 ### Groot scherm darkmode
 
 ![website groot scherm darkmode](https://github.com/Annevd/all-human-accessible-website/assets/144004647/57f8dd56-4b32-411f-a376-625b6dd704e6)
@@ -41,6 +45,10 @@ Ook kan je op de boekcover klikken om doorgeleid te worden naar de oba pagina wa
 ### Klein scherm lightmode
 
 ![website klein scherm lightmode](https://github.com/Annevd/all-human-accessible-website/assets/144004647/7b81b6c5-df0b-4d39-92da-698909931213)
+
+### Klein scherm lightmode navigatie uitgeklapt
+
+![website klein scherm navigatie](https://github.com/Annevd/all-human-accessible-website/assets/144004647/0f353d2d-84d7-4ee2-931e-9881bd113449)
 
 ### Klein scherm darkmode
 
