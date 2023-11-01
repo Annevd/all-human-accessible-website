@@ -11,6 +11,16 @@ Ontwerp en maak voor een opdrachtgever een component/pagina/site toegankelijk vo
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
+## User Story
+> Toon in een overzicht alle abonnementen van een familie met een verwijzing naar een indiviueel profiel van elk familielid.
+> Functies:
+
+> * Familieleden
+> * Beschikbare diensten
+> * Laatst geleende boeken
+> * In te leveren boeken om boete te voorkomen
+
+
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 Voor deze opdracht moeten wij een toegankelijke website volgens WCAG richtlijnen met een overzicht van alle abonnementen van een familie met een verwijzing naar een indiviueel profiel van elk familielid maken. Ik en de andere mensen met OBA als opdrachtgever hebben de pagina's verdeeld en daarna op elk van onze pagina naar elkaar doorgelinkt.
@@ -54,7 +64,7 @@ Ook kan je op de boekcover klikken om doorgeleid te worden naar de oba pagina wa
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
-Voor deze website heb ik HTML en CSS gebruikt. De HTML is gestructureerd in articles, divs en een section. De belangrijkste dingen met css zijn de grids op de boekenlijst en op de aanbevolen activiteiten. Daarnaast gebruik ik flex om de boeken, titels, auteur en de info knop onder elkaar te zetten. Verder gebruik ik ```position: fixed;``` om de navigatie altijd vast bovenaan de pagina te houden. Bekijk mijn [wiki](https://github.com/Annevd/all-human-accessible-website/wiki) voor nog meer uitleg over de code!
+Voor deze website heb ik HTML en CSS gebruikt. De HTML is gestructureerd in articles, divs en een section. De belangrijkste dingen met css zijn de grids op de boekenlijst en op de aanbevolen activiteiten. Daarnaast gebruik ik flex om de boeken, titels, auteur en de info knop onder elkaar te zetten. Verder gebruik ik ```position: fixed;``` om de navigatie altijd vast bovenaan de pagina te houden. Mocht je in deze code willen werken, fork en clone deze repository! Bekijk mijn [wiki](https://github.com/Annevd/all-human-accessible-website/wiki) voor nog meer uitleg over de code!
 
 
 ## Bronnen
