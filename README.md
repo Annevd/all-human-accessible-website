@@ -34,14 +34,6 @@ Ook kan je op de boekcover klikken om doorgeleid te worden naar de oba pagina wa
 
 ![website groot scherm darkmode](https://github.com/Annevd/all-human-accessible-website/assets/144004647/57f8dd56-4b32-411f-a376-625b6dd704e6)
 
-### Groot scherm popup lightmode
-
-![website groot scherm popup](https://github.com/Annevd/all-human-accessible-website/assets/144004647/5a852507-ca29-44b1-9f09-18cbd895ed34)
-
-### Groot scherm popup darkmode
-
-![website groot scherm popup darkmode](https://github.com/Annevd/all-human-accessible-website/assets/144004647/0de83fdf-465f-4ed6-b276-79102ca57b99)
-
 ### Klein scherm lightmode
 
 ![website klein scherm lightmode](https://github.com/Annevd/all-human-accessible-website/assets/144004647/7b81b6c5-df0b-4d39-92da-698909931213)
@@ -53,10 +45,6 @@ Ook kan je op de boekcover klikken om doorgeleid te worden naar de oba pagina wa
 ### Klein scherm darkmode
 
 ![website klein scherm dark mode](https://github.com/Annevd/all-human-accessible-website/assets/144004647/cf0faa6d-3301-40ed-961a-0127c458ac6a)
-
-### Klein scherm popup
-
-![website klein scherm popup](https://github.com/Annevd/all-human-accessible-website/assets/144004647/3822f8ca-6e36-4936-9fe8-8dccc53c0a1c)
 
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
