@@ -11,6 +11,16 @@ Ontwerp en maak voor een opdrachtgever een component/pagina/site toegankelijk vo
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
+## User Story
+> Toon in een overzicht alle abonnementen van een familie met een verwijzing naar een indiviueel profiel van elk familielid.
+> Functies:
+
+> * Familieleden
+> * Beschikbare diensten
+> * Laatst geleende boeken
+> * In te leveren boeken om boete te voorkomen
+
+
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 Voor deze opdracht moeten wij een toegankelijke website volgens WCAG richtlijnen met een overzicht van alle abonnementen van een familie met een verwijzing naar een indiviueel profiel van elk familielid maken. Ik en de andere mensen met OBA als opdrachtgever hebben de pagina's verdeeld en daarna op elk van onze pagina naar elkaar doorgelinkt.
