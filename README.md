@@ -64,7 +64,7 @@ Ook kan je op de boekcover klikken om doorgeleid te worden naar de oba pagina wa
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
-Voor deze website heb ik HTML en CSS gebruikt. De HTML is gestructureerd in articles, divs en een section. De belangrijkste dingen met css zijn de grids op de boekenlijst en op de aanbevolen activiteiten. Daarnaast gebruik ik flex om de boeken, titels, auteur en de info knop onder elkaar te zetten. Verder gebruik ik ```position: fixed;``` om de navigatie altijd vast bovenaan de pagina te houden. Bekijk mijn [wiki](https://github.com/Annevd/all-human-accessible-website/wiki) voor nog meer uitleg over de code!
+Voor deze website heb ik HTML en CSS gebruikt. De HTML is gestructureerd in articles, divs en een section. De belangrijkste dingen met css zijn de grids op de boekenlijst en op de aanbevolen activiteiten. Daarnaast gebruik ik flex om de boeken, titels, auteur en de info knop onder elkaar te zetten. Verder gebruik ik ```position: fixed;``` om de navigatie altijd vast bovenaan de pagina te houden. Mocht je in deze code willen werken, fork en clone deze repository! Bekijk mijn [wiki](https://github.com/Annevd/all-human-accessible-website/wiki) voor nog meer uitleg over de code!
 
 
 ## Bronnen
