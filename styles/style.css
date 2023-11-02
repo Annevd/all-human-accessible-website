@@ -704,6 +704,6 @@ body.dark main .overlay {
 
 @media (min-width: 75rem) {
     .popup {
-        width: 50%;
+        width: 40%;
     }
 }
